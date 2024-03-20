@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Genero]
+(
+	[IdGenero] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NewId(),
+    [Nombre] NVARCHAR(MAX) NULL, 
+    [Activo] BIT NULL DEFAULT 1, 
+    [Actualiza] DATETIME NULL DEFAULT GetDate(),
+)

@@ -1,0 +1,10 @@
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\bin\Debug\dbaFashionMirror.dacpac
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\bin\Debug\dbaFashionMirror.dll
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\bin\Debug\dbaFashionMirror.pdb
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\dbaFashionMirror.sqlproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\dbaFashionMirror.dll
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\dbaFashionMirror.pdb
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\Model.xml
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\refactor.xml
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\postdeploy.sql
+C:\Users\USUARIO\Desktop\Construccion de software\Fashion-Mirror\FashionMirrorDBA\FashionMirror\dbaFashionMirror\obj\Debug\predeploy.sql
