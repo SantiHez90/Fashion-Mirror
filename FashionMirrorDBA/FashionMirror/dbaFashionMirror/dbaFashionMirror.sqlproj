@@ -59,6 +59,19 @@
     <Folder Include="dbo\procedures" />
     <Folder Include="dbo\scripts" />
     <Folder Include="dbo\collections" />
+    <Folder Include="dbo\procedures\Pais" />
+    <Folder Include="dbo\procedures\Departamento" />
+    <Folder Include="dbo\procedures\Ciudad" />
+    <Folder Include="dbo\procedures\Empresa" />
+    <Folder Include="dbo\procedures\Sucursal" />
+    <Folder Include="dbo\procedures\Asesor" />
+    <Folder Include="dbo\procedures\Categoria" />
+    <Folder Include="dbo\procedures\DetalleFactura" />
+    <Folder Include="dbo\procedures\Factura" />
+    <Folder Include="dbo\procedures\Genero" />
+    <Folder Include="dbo\procedures\TipoDocumento" />
+    <Folder Include="dbo\procedures\TipoProducto" />
+    <Folder Include="dbo\procedures\Referencia" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\tables\Pais.sql" />
@@ -81,6 +94,73 @@
     <Build Include="dbo\tables\Empresa.sql" />
     <Build Include="dbo\tables\Sucursal.sql" />
     <Build Include="dbo\tables\Asesor.sql" />
+    <None Include="dbo\scripts\Join Organizacion.sql" />
+    <None Include="dbo\scripts\Join Factura.sql" />
+    <Build Include="dbo\procedures\Pais\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Pais\Actualizar.sql" />
+    <Build Include="dbo\procedures\Pais\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Pais\Borrar.sql" />
+    <Build Include="dbo\procedures\Pais\Agregar.sql" />
+    <Build Include="dbo\procedures\Departamento\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Departamento\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Departamento\Borrar.sql" />
+    <Build Include="dbo\procedures\Departamento\Agregar.sql" />
+    <Build Include="dbo\procedures\Departamento\Actualizar.sql" />
+    <Build Include="dbo\procedures\Ciudad\Actualizar.sql" />
+    <Build Include="dbo\procedures\Ciudad\Agregar.sql" />
+    <Build Include="dbo\procedures\Ciudad\Borrar.sql" />
+    <Build Include="dbo\procedures\Ciudad\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Ciudad\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Empresa\Actualizar.sql" />
+    <Build Include="dbo\procedures\Empresa\Agregar.sql" />
+    <Build Include="dbo\procedures\Empresa\Borrar.sql" />
+    <Build Include="dbo\procedures\Empresa\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Empresa\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Sucursal\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Sucursal\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Sucursal\Borrar.sql" />
+    <Build Include="dbo\procedures\Sucursal\Agregar.sql" />
+    <Build Include="dbo\procedures\Sucursal\Actualizar.sql" />
+    <Build Include="dbo\procedures\Asesor\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Asesor\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Asesor\Borrar.sql" />
+    <Build Include="dbo\procedures\Asesor\Agregar.sql" />
+    <Build Include="dbo\procedures\Asesor\Actualizar.sql" />
+    <Build Include="dbo\procedures\Genero\Actualizar.sql" />
+    <Build Include="dbo\procedures\Genero\Agregar.sql" />
+    <Build Include="dbo\procedures\Genero\Borrar.sql" />
+    <Build Include="dbo\procedures\Genero\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Genero\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\TipoDocumento\Actualizar.sql" />
+    <Build Include="dbo\procedures\TipoDocumento\Agregar.sql" />
+    <Build Include="dbo\procedures\TipoDocumento\Borrar.sql" />
+    <Build Include="dbo\procedures\TipoDocumento\ConsultarId.sql" />
+    <Build Include="dbo\procedures\TipoDocumento\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Categoria\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Categoria\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Categoria\Borrar.sql" />
+    <Build Include="dbo\procedures\Categoria\Agregar.sql" />
+    <Build Include="dbo\procedures\Categoria\Actualizar.sql" />
+    <Build Include="dbo\procedures\TipoProducto\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\TipoProducto\ConsultarId.sql" />
+    <Build Include="dbo\procedures\TipoProducto\Borrar.sql" />
+    <Build Include="dbo\procedures\TipoProducto\Agregar.sql" />
+    <Build Include="dbo\procedures\TipoProducto\Actualizar.sql" />
+    <Build Include="dbo\procedures\Referencia\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\Referencia\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Referencia\Borrar.sql" />
+    <Build Include="dbo\procedures\Referencia\Agregar.sql" />
+    <Build Include="dbo\procedures\Referencia\Actualizar.sql" />
+    <Build Include="dbo\procedures\DetalleFactura\ConsultarTodo.sql" />
+    <Build Include="dbo\procedures\DetalleFactura\ConsultarId.sql" />
+    <Build Include="dbo\procedures\DetalleFactura\Borrar.sql" />
+    <Build Include="dbo\procedures\DetalleFactura\Agregar.sql" />
+    <Build Include="dbo\procedures\DetalleFactura\Actualizar.sql" />
+    <Build Include="dbo\procedures\Factura\Actualizar.sql" />
+    <Build Include="dbo\procedures\Factura\Agregar.sql" />
+    <Build Include="dbo\procedures\Factura\Borrar.sql" />
+    <Build Include="dbo\procedures\Factura\ConsultarId.sql" />
+    <Build Include="dbo\procedures\Factura\ConsultarTodo.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="dbaFashionMirror.refactorlog" />
@@ -92,6 +172,14 @@
       <XMLSchemaCollectionName>Colleccion Geografia</XMLSchemaCollectionName>
     </Build>
     <Build Include="dbo\collections\Colleccion Usuario.json">
+      <RelationalSchema>dbo</RelationalSchema>
+      <XMLSchemaCollectionName>Colleccion Geografia</XMLSchemaCollectionName>
+    </Build>
+    <Build Include="dbo\collections\Colleccion Organizacion.json">
+      <RelationalSchema>dbo</RelationalSchema>
+      <XMLSchemaCollectionName>Colleccion Geografia</XMLSchemaCollectionName>
+    </Build>
+    <Build Include="dbo\collections\Colleccion Factura.json">
       <RelationalSchema>dbo</RelationalSchema>
       <XMLSchemaCollectionName>Colleccion Geografia</XMLSchemaCollectionName>
     </Build>

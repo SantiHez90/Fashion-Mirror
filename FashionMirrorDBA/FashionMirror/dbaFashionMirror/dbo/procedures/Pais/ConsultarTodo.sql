@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE ConsultarTodoPaises
+AS
+BEGIN
+    SELECT * FROM Pais WHERE Activo = 1;
+END

@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE ConsultarPaisPorId
+    @IdPais UNIQUEIDENTIFIER
+AS
+BEGIN
+    SELECT * FROM Pais WHERE IdPais = @IdPais AND Activo = 1;
+END
